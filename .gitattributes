@@ -1,0 +1,4 @@
+Software/Version1/GUI/Windows/* filter=lfs diff=lfs merge=lfs -text
+Software/Version1/GUI/Linux/* filter=lfs diff=lfs merge=lfs -text
+Windows/* filter=lfs diff=lfs merge=lfs -text
+Linux/* filter=lfs diff=lfs merge=lfs -text
