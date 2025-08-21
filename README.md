@@ -17,6 +17,6 @@ Linux: https://github.com/Siavash-cloud/GENOVIS/releases/download/GENOVIS-GUI/Li
 
 Windows: https://github.com/Siavash-cloud/GENOVIS/releases/download/GENOVIS-GUI/Windows.zip
 
-GENOVIS user guide is available at: https://github.com/Siavash-cloud/GENOVIS/blob/main/GENOVIS-Manual.pdf
+GENOVIS user guide is available at: https://siavash-cloud.github.io/GENOVIS/
 
 ---
