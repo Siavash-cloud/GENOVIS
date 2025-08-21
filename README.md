@@ -4,7 +4,7 @@
 ---
 
 **Version 1.0**  
-**Developers:** S. Salek Ardestani, E. Mohandesan  
+**Developers:** Siavash Salek Ardestani, Elmira Mohandesan  
 **Contact:** siasia6650@gmail.com
 
 ---
