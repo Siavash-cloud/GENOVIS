@@ -14,7 +14,7 @@
 
 Users can install GENOVIS (Linux/Windows/Mac) using pip:
 
-    ```pip install genovis```
+    pip install genovis
 
 GENOVIS user guide is available at: https://siavash-cloud.github.io/GENOVIS/
 
