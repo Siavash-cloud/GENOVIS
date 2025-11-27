@@ -12,11 +12,8 @@
 
 ***IMPORTANT*** 
 
-Users can download portable graphical interface versions (Linux and Windows):
+Users can install GENOVIS (Linux/Windows/Mac) using pip:
 
-Linux: https://github.com/Siavash-cloud/GENOVIS/releases/download/GENOVIS-GUI/Linux.zip
-
-Windows: https://github.com/Siavash-cloud/GENOVIS/releases/download/GENOVIS-GUI/Windows.zip
 
 GENOVIS user guide is available at: https://siavash-cloud.github.io/GENOVIS/
 
