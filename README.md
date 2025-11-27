@@ -1,4 +1,3 @@
-```
 # GENOVIS: Population Genomics Visualization Toolkit
 
 **Version 1.0.1**  
