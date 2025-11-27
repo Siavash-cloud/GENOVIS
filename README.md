@@ -8,3 +8,5 @@
 **Contact:** siasia6650@gmail.com
 
 ---
+
+To install GENOVIS on Windows, Linux, or Mac OS, users can run ```pip install genovis``` in PowerShell/Terminal.
