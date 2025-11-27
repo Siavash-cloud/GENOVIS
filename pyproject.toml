@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "genovis"
+version = "1.0.1"
+description = "GENOVIS: Population genomics visualization toolkit"
+readme = "README.md"
+license = { file = "LICENSE.txt" }  
+requires-python = ">=3.9"
+dependencies = ["numpy","pandas","matplotlib","seaborn","PyQt5>=5.15"]
+[project.scripts]
+genovis     = "genovis.__main__:main"
+genovis-gui = "genovis.gui.main:main"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["genovis*"]
+[tool.setuptools.package-data]
+"genovis.gui" = ["resources/*"]

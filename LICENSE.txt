@@ -1,11 +1,3 @@
-GENOVIS
-Developers: Siavash Salek Ardestani & Elmira Mohandesan
-Contact: siasia6650@gmail.com
-Released in 2025, GENOVIS is a visualization toolkit for population genomic analyses.
-It supports the generation of: Manhattan plots, three-dimensional PCA, SNP density maps,
-admixture plots, runs of homozygosity (ROH) intervals, and relationship matrices.
-
-
 MIT License for GENOVIS
 
 Copyright (c) 2025 Siavash Salek Ardestani, Elmira Mohandesan
@@ -27,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-- ***v1.0.1 (2025-11-21)*** – Fixed a bug in the `mapden` module:
-  - Force chromosome IDs to be read as strings to avoid issues with mixed/leading-zero chromosome labels:
-	df=pd.read_csv(args.m,names=cols,sep=r'\s+') **changed to** df=pd.read_csv(args.m,names=cols,sep=r'\s+',dtype={'Chr': str})
-	genome_index=pd.read_csv(args.i,sep=r'\s+',header=None,names=['Chr','Size']) **changed to** genome_index=pd.read_csv(args.i,sep=r'\s+',header=None,names=['Chr','Size'],dtype={'Chr': str})
-  - Sort chromosome IDs based on the order of chromosome IDs in index file:
-	chromosomes = set(df["Chr"].unique()) 
-	**changed to**
-	chrs_in_map = set(df["Chr"].unique())
-    chromosomes = [c for c in genome_index["Chr"] if c in chrs_in_map]
