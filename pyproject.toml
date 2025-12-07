@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "genovis"
-version = "1.0.1"
+version = "1.0.4"
 description = "GENOVIS: Population genomics visualization toolkit"
 readme = "README.md"
 license = { file = "LICENSE.txt" }  
