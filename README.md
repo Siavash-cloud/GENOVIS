@@ -8,6 +8,7 @@ Users can find the user manual of GENOVIS here:
 
 https://github.com/Siavash-cloud/GENOVIS/blob/main/GENOVIS-Manual.pdf 
 
+-------
 
 MIT License for GENOVIS
 
