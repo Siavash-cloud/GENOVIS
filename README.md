@@ -11,6 +11,12 @@ https://github.com/Siavash-cloud/GENOVIS/blob/main/GENOVIS-Manual.pdf
 
 -------
 
+Citation:
+
+Salek Ardestani, S., Mohandesan, E. GENOVIS: a Python package for the visualization of population genetic analyses. BMC Genomics 27, 190 (2026). https://doi.org/10.1186/s12864-026-12598-x
+
+-------
+
 MIT License for GENOVIS
 
 Copyright (c) 2025 Siavash Salek Ardestani, Elmira Mohandesan
